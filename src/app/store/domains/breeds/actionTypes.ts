@@ -1,4 +1,5 @@
 import { Response } from 'superagent';
+import { IServerResponse } from './types';
 
 export enum BreedActionKeys {
   GET_BREEDS = 'BREEDS',
@@ -7,10 +8,6 @@ export enum BreedActionKeys {
   ERROR_BREEDS = 'BREEDS_REJECTED',
   RESET_DISPLAY_AMOUNT = 'RESET_DISPLAY_AMOUNT',
   INCREASE_DISPLAY_AMOUNT = 'INCREASE_DISPLAY_AMOUNT',
-}
-
-interface IServerResponse extends Response{
-  message: string[];
 }
 
 export interface IResetAmountAction {
