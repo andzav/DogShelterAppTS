@@ -1,0 +1,8 @@
+.availableBreeds { 
+  text-align: center;
+  width: 100vw;
+}
+
+.availableBreeds h1 {
+  text-transform: capitalize;
+}

@@ -1,0 +1,18 @@
+.galleryContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.visibleButton {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  width: 250px;
+  margin-left: calc(50% - 125px);
+  display: block;
+}
+
+.hiddenButton {
+  display: none;
+}

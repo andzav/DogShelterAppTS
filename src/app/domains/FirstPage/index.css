@@ -1,0 +1,36 @@
+.firstPage {
+  text-align: center;
+  width: 100vw;
+}
+
+.firstPage .form {
+  border: 2px solid black;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 5vh;
+}
+
+.firstPage .form input[type="text"] {
+  width: 80%;
+  margin: auto;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.firstPage .form textarea {
+  width: 80%;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  height: 10vh;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+.firstPage .form input[type="submit"] {
+  width: 50%;
+  margin: auto;
+  box-sizing: border-box;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
