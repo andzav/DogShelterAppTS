@@ -21,3 +21,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+tsconfig.json
+tsconfig.prod.json
+tsconfig.test.json
+tslint.json
+images.d.ts
