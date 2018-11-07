@@ -8,7 +8,6 @@ interface IExternalProps {
 }
 
 const withSpinner = () => <OriginalProps extends {}>(
-  // tslint:disable-next-line:variable-name
   IntComponent: React.ComponentType<OriginalProps & {}>,
 ) =>
   class HOC extends React.Component<OriginalProps & IExternalProps> {

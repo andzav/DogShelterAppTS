@@ -17,6 +17,7 @@ function menu(props: IAppProps) {
       </Link>
       <ul>
         <li><Link to="/">First page</Link></li>
+        <li><Link to="/home">Home</Link></li>
       </ul>
     </div>
   );
